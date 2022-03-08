@@ -1,0 +1,16 @@
+{
+  "name": "calculator-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ramon-cco/calculator-api.git",
+  "author": "Ramon Oliveira <77456126+ramon-cco@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+
+  "dependencies": {
+    "express": "^4.17.3",
+    "node-emoji": "^1.11.0"
+  }
+}
