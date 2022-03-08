@@ -11,7 +11,7 @@ ADD . /src
 
 FROM node:16-alpine
 
-COPY --from=0 /src/var/www
+COPY --from=0 /src /var/www
 
 WORKDIR /var/www
 
